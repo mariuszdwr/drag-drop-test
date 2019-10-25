@@ -25,6 +25,8 @@ function onDrop(event){
     console.log(document.getElementById(event.target.id));
     console.log(document.getElementById(el));
     console.log(event.dataTransfer);
+    event.target.style.borderWidth = '5px';
+    ball.parentElement.style.borderWidth = '1px';
     event.target.appendChild(document.getElementById(el));
 }
 

@@ -1,14 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+
 .box1, .box2 {
-    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 5rem;
     height: 5rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    display: inline-block;
+    
+    
     margin: 1rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .ball {
-    
+    display: inline-block;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -16,8 +30,7 @@
     background: gray;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    margin: 1.5rem;
+   
    
 
-}
 }
